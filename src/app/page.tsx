@@ -12,7 +12,7 @@ export default function Home() {
     <>
     <div className="border-t border-green-500 border-b flex items-center justify-between px-4 py-2 bg-green-500">
       <div className="flex items-center">
-        <img
+        <Image
           alt="GHELLA Logo"
           className="mr-2"
           height="40"
@@ -63,7 +63,7 @@ export default function Home() {
       <Carousel className="w-full max-w-7xl mx-auto">
         <CarouselContent>
           <CarouselItem>
-            <img
+            <Image
               alt="Carousel Image 1"
               className="object-cover w-full rounded-lg"
               height="400"
@@ -76,7 +76,7 @@ export default function Home() {
             />
           </CarouselItem>
           <CarouselItem>
-            <img
+            <Image
               alt="Carousel Image 2"
               className="object-cover w-full rounded-lg"
               height="200"
@@ -89,7 +89,7 @@ export default function Home() {
             />
           </CarouselItem>
           <CarouselItem>
-            <img
+            <Image
               alt="Carousel Image 3"
               className="object-cover w-full rounded-lg"
               height="400"
@@ -291,7 +291,7 @@ export default function Home() {
   );
   
 }
-function ArrowUpIcon(props) {
+function ArrowUpIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -312,7 +312,7 @@ function ArrowUpIcon(props) {
 }
 
 
-function CalendarIcon(props) {
+function CalendarIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -335,7 +335,7 @@ function CalendarIcon(props) {
 }
 
 
-function ChevronDownIcon(props) {
+function ChevronDownIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -355,7 +355,7 @@ function ChevronDownIcon(props) {
 }
 
 
-function HomeIcon(props) {
+function HomeIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -376,7 +376,7 @@ function HomeIcon(props) {
 }
 
 
-function LogInIcon(props) {
+function LogInIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -398,7 +398,7 @@ function LogInIcon(props) {
 }
 
 
-function MenuIcon(props) {
+function MenuIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -420,7 +420,7 @@ function MenuIcon(props) {
 }
 
 
-function NewspaperIcon(props) {
+function NewspaperIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
