@@ -443,7 +443,7 @@ function NewspaperIcon(props: React.SVGProps<SVGSVGElement>) {
 }
 
 
-function PanelBottomCloseIcon(props) {
+function PanelBottomCloseIcon(props:React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -465,7 +465,7 @@ function PanelBottomCloseIcon(props) {
 }
 
 
-function TagIcon(props) {
+function TagIcon(props:React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -486,7 +486,7 @@ function TagIcon(props) {
 }
 
 
-function UserIcon(props) {
+function UserIcon(props:React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
