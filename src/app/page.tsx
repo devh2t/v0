@@ -291,7 +291,7 @@ export default function Home() {
   );
   
 }
-function ArrowUpIcon(props: React.SVGProps<SVGSVGElement>) {
+function ArrowUpIcon(props: any) {
   return (
     <svg
       {...props}
@@ -312,7 +312,7 @@ function ArrowUpIcon(props: React.SVGProps<SVGSVGElement>) {
 }
 
 
-function CalendarIcon(props: React.SVGProps<SVGSVGElement>) {
+function CalendarIcon(props: any) {
   return (
     <svg
       {...props}
@@ -335,7 +335,7 @@ function CalendarIcon(props: React.SVGProps<SVGSVGElement>) {
 }
 
 
-function ChevronDownIcon(props: React.SVGProps<SVGSVGElement>) {
+function ChevronDownIcon(props: any) {
   return (
     <svg
       {...props}
@@ -355,7 +355,7 @@ function ChevronDownIcon(props: React.SVGProps<SVGSVGElement>) {
 }
 
 
-function HomeIcon(props: React.SVGProps<SVGSVGElement>) {
+function HomeIcon(props: any) {
   return (
     <svg
       {...props}
@@ -376,7 +376,7 @@ function HomeIcon(props: React.SVGProps<SVGSVGElement>) {
 }
 
 
-function LogInIcon(props: React.SVGProps<SVGSVGElement>) {
+function LogInIcon(props: any) {
   return (
     <svg
       {...props}
@@ -398,7 +398,7 @@ function LogInIcon(props: React.SVGProps<SVGSVGElement>) {
 }
 
 
-function MenuIcon(props: React.SVGProps<SVGSVGElement>) {
+function MenuIcon(props: any) {
   return (
     <svg
       {...props}
@@ -420,7 +420,7 @@ function MenuIcon(props: React.SVGProps<SVGSVGElement>) {
 }
 
 
-function NewspaperIcon(props: React.SVGProps<SVGSVGElement>) {
+function NewspaperIcon(props: any) {
   return (
     <svg
       {...props}
@@ -443,7 +443,7 @@ function NewspaperIcon(props: React.SVGProps<SVGSVGElement>) {
 }
 
 
-function PanelBottomCloseIcon(props:React.SVGProps<SVGSVGElement>) {
+function PanelBottomCloseIcon(props:any) {
   return (
     <svg
       {...props}
@@ -465,7 +465,7 @@ function PanelBottomCloseIcon(props:React.SVGProps<SVGSVGElement>) {
 }
 
 
-function TagIcon(props:React.SVGProps<SVGSVGElement>) {
+function TagIcon(props:any) {
   return (
     <svg
       {...props}
@@ -486,7 +486,7 @@ function TagIcon(props:React.SVGProps<SVGSVGElement>) {
 }
 
 
-function UserIcon(props:React.SVGProps<SVGSVGElement>) {
+function UserIcon(props:any) {
   return (
     <svg
       {...props}
